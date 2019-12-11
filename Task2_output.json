@@ -1,0 +1,8346 @@
+{
+    "column_name": "DBA",
+    "semantic_types": [
+        {
+            "count": 7,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 75,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 82,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 17,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Body_Type",
+    "semantic_types": [
+        {
+            "count": 19,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 19,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 198,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 438,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 21,
+            "semantic_type": "city"
+        },
+        {
+            "count": 6,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 39,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 8,
+            "semantic_type": "color"
+        },
+        {
+            "count": 795,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 4,
+            "semantic_type": "website"
+        },
+        {
+            "count": 115,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 66,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 116,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 5,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 91,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 160,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 82,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1097,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 24,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 117,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "color"
+        },
+        {
+            "count": 531,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "website"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 117,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 117,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Make",
+    "semantic_types": [
+        {
+            "count": 10,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 22,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 49,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 189,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 342,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1513,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 105,
+            "semantic_type": "city"
+        },
+        {
+            "count": 12,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 366,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 7,
+            "semantic_type": "color"
+        },
+        {
+            "count": 1968,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 21,
+            "semantic_type": "website"
+        },
+        {
+            "count": 16,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 746,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 334,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "PERSON_FIRST_NAME",
+    "semantic_types": [
+        {
+            "count": 97,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 224,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 314,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2826,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 279,
+            "semantic_type": "city"
+        },
+        {
+            "count": 5,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 202,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1267,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 7,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 851,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 166,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "PERSON_LAST_NAME",
+    "semantic_types": [
+        {
+            "count": 18637,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "DBA",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 49,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 78,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 13,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Project_School_Name",
+    "semantic_types": [
+        {
+            "count": 17,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 306,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 51,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 68,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 768,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 98,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 6,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 41,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 166,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "website"
+        },
+        {
+            "count": 2,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 166,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 10,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "BOROUGH",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "COMPARABLE_RENTAL___2__Building_Classification",
+    "semantic_types": [
+        {
+            "count": 12,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "STREET",
+    "semantic_types": [
+        {
+            "count": 15842,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Cross_Street_2",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 4,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 34,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 7339,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 82,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 41,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2231,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 24,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 168,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 179,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 272,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 28,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 506,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 144,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 584,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Incident_Zip",
+    "semantic_types": [
+        {
+            "count": 944,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Location",
+    "semantic_types": [
+        {
+            "count": 375500,
+            "semantic_type": "phone_number"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 13,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 5,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 512,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 215,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 175,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 149,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 5,
+            "semantic_type": "city"
+        },
+        {
+            "count": 967,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 32,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 321,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 6,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 169,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 6,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "School_Phone_Number",
+    "semantic_types": [
+        {
+            "count": 1453,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Street_Name",
+    "semantic_types": [
+        {
+            "count": 57,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 86,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 6,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 36,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 9075,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 80,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 173,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 3035,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 30,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 190,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 227,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 281,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 45,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 612,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 170,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 793,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "DBA",
+    "semantic_types": [
+        {
+            "count": 6,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 33,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 145,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1688,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 449,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 10,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 9651,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 237,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 466,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1999,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 203,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 12,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 5806,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 205,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 41,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 47,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 7,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "Location",
+    "semantic_types": [
+        {
+            "count": 558171,
+            "semantic_type": "phone_number"
+        }
+    ]
+},{
+    "column_name": "BOROUGH",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        }
+    ]
+},{
+    "column_name": "CrossStreet2",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 17,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4005,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 28,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 36,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 724,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 14,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 92,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 92,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 259,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 22,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 206,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 68,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 368,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Owner_First_Name",
+    "semantic_types": [
+        {
+            "count": 8658,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Owner_Last_Name",
+    "semantic_types": [
+        {
+            "count": 208,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 566,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 647,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 8666,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 521,
+            "semantic_type": "city"
+        },
+        {
+            "count": 17,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 443,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 2682,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 16,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 16,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 7,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 2930,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 526,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 6,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "BORO",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Lat_Lon",
+    "semantic_types": [
+        {
+            "count": 52536,
+            "semantic_type": "lat_lon_cord"
+        }
+    ]
+},{
+    "column_name": "PREM_TYP_DESC",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 15,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 44,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 4,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "BROOKLYN___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
+    "semantic_types": [
+        {
+            "count": 4,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "FirstName",
+    "semantic_types": [
+        {
+            "count": 11,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 40,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 35,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 611,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 65,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 52,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 435,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 196,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 30,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "LastName",
+    "semantic_types": [
+        {
+            "count": 39,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 100,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 85,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1275,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 155,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 79,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 399,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 17,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 446,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 81,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "SCHOOL",
+    "semantic_types": [
+        {
+            "count": 1734,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 7,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "independentwebsite",
+    "semantic_types": [
+        {
+            "count": 8,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 15,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 455,
+            "semantic_type": "website"
+        }
+    ]
+},{
+    "column_name": "neighborhood",
+    "semantic_types": [
+        {
+            "count": 191,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "parkname",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 118,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 95,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 19,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 63,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "city"
+        },
+        {
+            "count": 4,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 26,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 6,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 24,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "CORE_COURSE__MS_CORE_and_9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 20,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "ORGANIZATION_PHONE",
+    "semantic_types": [
+        {
+            "count": 7911,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 11,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Agency_ID",
+    "semantic_types": [
+        {
+            "count": 9,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 31,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 60,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 72,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 5,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 72,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 76,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Borough",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        }
+    ]
+},{
+    "column_name": "Website",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 10,
+            "semantic_type": "city"
+        },
+        {
+            "count": 196,
+            "semantic_type": "website"
+        }
+    ]
+},{
+    "column_name": "CANDMI",
+    "semantic_types": [
+        {
+            "count": 24,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "EMPCITY",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 75,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 165,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 33,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 8,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 642,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 565,
+            "semantic_type": "city"
+        },
+        {
+            "count": 6,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 51,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 73,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 111,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 168,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 15,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Provider_First_Name",
+    "semantic_types": [
+        {
+            "count": 1250,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Provider_Last_Name",
+    "semantic_types": [
+        {
+            "count": 21,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 60,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 80,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 678,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 62,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 51,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 255,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 253,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 39,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 44,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT__MS_CORE_and_9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "phone",
+    "semantic_types": [
+        {
+            "count": 1297,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Owner_Telephone",
+    "semantic_types": [
+        {
+            "count": 2598,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 9,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 17,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Last_Name__only_2014_15_",
+    "semantic_types": [
+        {
+            "count": 3673,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "City__State__Zip_",
+    "semantic_types": [
+        {
+            "count": 21,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 11,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 259,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 66,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 9054,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 56,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 134,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2044,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "COMPARABLE_RENTAL_1__Building_Classification",
+    "semantic_types": [
+        {
+            "count": 12,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "MANHATTAN_CONDOMINIUM_PROPERTY_Building_Classification",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "MANHATTAN_CONDOMINIUM_PROPERTY_Neighborhood",
+    "semantic_types": [
+        {
+            "count": 37,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "BOROUGH___COMMUNITY",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        }
+    ]
+},{
+    "column_name": "DBA",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 3,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 53,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 294,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 135,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2435,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 58,
+            "semantic_type": "city"
+        },
+        {
+            "count": 14,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 115,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 427,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 48,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 5,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1188,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 59,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 43,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Borough",
+    "semantic_types": [
+        {
+            "count": 7,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "STATEN_ISLAND_CONDOMINIUM_PROPERTY_Neighborhood",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 7,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 2285,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 8,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 17,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "MI",
+    "semantic_types": [
+        {
+            "count": 28,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "PRINCIPAL_PHONE_NUMBER",
+    "semantic_types": [
+        {
+            "count": 1797,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "MANHATTAN_CONDOMINIUM_PROPERTY_Building_Classification",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Cross_Street_2",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 16,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 60,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 6981,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 237,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 88,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2850,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 38,
+            "semantic_type": "city"
+        },
+        {
+            "count": 4,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 222,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 632,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 311,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 116,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 575,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 186,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 735,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Incident_Zip",
+    "semantic_types": [
+        {
+            "count": 813,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 6,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 38,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Intersection_Street_2",
+    "semantic_types": [
+        {
+            "count": 6,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 19,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 87,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 7723,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 210,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 136,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2717,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 55,
+            "semantic_type": "city"
+        },
+        {
+            "count": 3,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 212,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 506,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 14,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 311,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 157,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 473,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 203,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 799,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Park_Facility_Name",
+    "semantic_types": [
+        {
+            "count": 13,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 439,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 189,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 71,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 131,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 5,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1026,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 28,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 361,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 6,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 93,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "BORO",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "NeighborhoodName",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 8,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 35,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 4,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "StartCity",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 72,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 9,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 28,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 20,
+            "semantic_type": "city"
+        },
+        {
+            "count": 6,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 38,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 6,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 2,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "TruckMake",
+    "semantic_types": [
+        {
+            "count": 320,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "ZIP",
+    "semantic_types": [
+        {
+            "count": 1061,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "BRONX_CONDOMINIUM_PROPERTY_Building_Classification",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "EMPCITY",
+    "semantic_types": [
+        {
+            "count": 1868,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CrossStreet2",
+    "semantic_types": [
+        {
+            "count": 7732,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Location",
+    "semantic_types": [
+        {
+            "count": 482236,
+            "semantic_type": "phone_number"
+        }
+    ]
+},{
+    "column_name": "DVV_MAKE",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 17,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 21,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 250,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 51,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1998,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 84,
+            "semantic_type": "city"
+        },
+        {
+            "count": 13,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 238,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1377,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 11,
+            "semantic_type": "website"
+        },
+        {
+            "count": 19,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 5,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1897,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 311,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 27,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "STREET",
+    "semantic_types": [
+        {
+            "count": 8061,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "BROOKLYN_____CONDOMINIUMS_COMPARABLE_PROPERTIES_____Neighborhood",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 11,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 24,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 5,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Owner_s_House_City",
+    "semantic_types": [
+        {
+            "count": 46,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 20,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 21,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 778,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 970,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 7,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 149,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 37,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 3465,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1140,
+            "semantic_type": "city"
+        },
+        {
+            "count": 13,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 279,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 460,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "website"
+        },
+        {
+            "count": 30,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 9,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1230,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 851,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 95,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 35,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Site_Safety_Mgr_s_Last_Name",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 17,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 40,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 45,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 593,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 69,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 30,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 207,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 185,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 41,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "interest",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 7,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 106,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 195,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 96,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1296,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 27,
+            "semantic_type": "city"
+        },
+        {
+            "count": 150,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "color"
+        },
+        {
+            "count": 680,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 6,
+            "semantic_type": "website"
+        },
+        {
+            "count": 10,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 142,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 153,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Make",
+    "semantic_types": [
+        {
+            "count": 6984,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Address1",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 16,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 15,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 25,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 18,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 86,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1086,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 77,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 236,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 9,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 360,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 6832,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Vendor_DBA",
+    "semantic_types": [
+        {
+            "count": 1163,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Website",
+    "semantic_types": [
+        {
+            "count": 6603,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "ADDRESS",
+    "semantic_types": [
+        {
+            "count": 1519,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 7,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "QUEENS___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "Boro",
+    "semantic_types": [
+        {
+            "count": 5,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "STATEN_ISLAND_CONDOMINIUM_PROPERTY_Neighborhood",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 7,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 17,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 166,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 158,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 462,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 293,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 17,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 177,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 234,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "CORE_COURSE__MS_CORE_and_9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 18,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 17,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 189,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 172,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 439,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 324,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 28,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 184,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 235,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "APPLICANT_FIRST_NAME",
+    "semantic_types": [
+        {
+            "count": 9,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 25,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 31,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 245,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 41,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 20,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 160,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 7,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 96,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 18,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "AUTH_REP_FIRST_NAME",
+    "semantic_types": [
+        {
+            "count": 79,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 106,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 294,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2017,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 210,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 5,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 155,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 2,
+            "semantic_type": "color"
+        },
+        {
+            "count": 1025,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 48,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 3,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 587,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 135,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "AUTH_REP_LAST_NAME",
+    "semantic_types": [
+        {
+            "count": 116,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 332,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 317,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 4044,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 327,
+            "semantic_type": "city"
+        },
+        {
+            "count": 13,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 223,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1482,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 7,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 4,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1350,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 315,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "OWNER_ZIP",
+    "semantic_types": [
+        {
+            "count": 1631,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "STREET_NAME",
+    "semantic_types": [
+        {
+            "count": 10,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4388,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 16,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 20,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 713,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 10,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 5,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 34,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 272,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 12,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 166,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 7,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 312,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "applicant_zip",
+    "semantic_types": [
+        {
+            "count": 1163,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 297,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 105,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        }
+    ]
+},{
+    "column_name": "CANDMI",
+    "semantic_types": [
+        {
+            "count": 22,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 10,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 19,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "BRONX_CONDOMINIUM_PROPERTY_Building_Classification",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "BRONX_CONDOMINIUM_PROPERTY_Neighborhood",
+    "semantic_types": [
+        {
+            "count": 15,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Landmark",
+    "semantic_types": [
+        {
+            "count": 22,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 30,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4902,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 197,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 36,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1041,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 13,
+            "semantic_type": "city"
+        },
+        {
+            "count": 7,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 38,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 105,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 273,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 24,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 303,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 8,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 342,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Park_Facility_Name",
+    "semantic_types": [
+        {
+            "count": 4293,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Body_Type",
+    "semantic_types": [
+        {
+            "count": 1735,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 49,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 133,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 57,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 709,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 26,
+            "semantic_type": "city"
+        },
+        {
+            "count": 103,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "color"
+        },
+        {
+            "count": 441,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "website"
+        },
+        {
+            "count": 7,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 83,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 69,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Location_1",
+    "semantic_types": [
+        {
+            "count": 3111,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        }
+    ]
+},{
+    "column_name": "BusinessCity",
+    "semantic_types": [
+        {
+            "count": 22,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 10,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 18,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 351,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 354,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 12,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 56,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 8,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 1177,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 817,
+            "semantic_type": "city"
+        },
+        {
+            "count": 11,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 102,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 181,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 8,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 6,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 501,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 294,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 43,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 4,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "BusinessZip",
+    "semantic_types": [
+        {
+            "count": 2871,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 57,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1067,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 6,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 8,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Website",
+    "semantic_types": [
+        {
+            "count": 69,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "address",
+    "semantic_types": [
+        {
+            "count": 1756,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "phonenumber",
+    "semantic_types": [
+        {
+            "count": 1740,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "PRINCIPAL_PHONE_NUMBER",
+    "semantic_types": [
+        {
+            "count": 1822,
+            "semantic_type": "phone_number"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "BRONX___COOPERATIVES_COMPARABLE_PROPERTIES___Neighborhood",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 4,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 7,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 6,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 4,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "COMPARABLE_RENTAL___2__Neighborhood",
+    "semantic_types": [
+        {
+            "count": 31,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "INCIDENT_ADDRESS",
+    "semantic_types": [
+        {
+            "count": 50,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 175,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 227,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 37,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 189,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 801,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 24,
+            "semantic_type": "city"
+        },
+        {
+            "count": 5,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 37,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 451,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 90,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 256,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 19176,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "LOCATION",
+    "semantic_types": [
+        {
+            "count": 20008,
+            "semantic_type": "lat_lon_cord"
+        }
+    ]
+},{
+    "column_name": "VEHICLE_TYPE_CODE_1",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 4,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 31,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 89,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 47,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 3,
+            "semantic_type": "color"
+        },
+        {
+            "count": 170,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "website"
+        },
+        {
+            "count": 10,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 35,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 66,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "VEHICLE_TYPE_CODE_2",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 8,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 6,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 16,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 23,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 95,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 16,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 49,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 3,
+            "semantic_type": "color"
+        },
+        {
+            "count": 158,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "website"
+        },
+        {
+            "count": 7,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 31,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 50,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 3,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "VEHICLE_TYPE_CODE_3",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 30,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 5,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 2,
+            "semantic_type": "color"
+        },
+        {
+            "count": 33,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 9,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 20,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "VEHICLE_TYPE_CODE_4",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 16,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 2,
+            "semantic_type": "color"
+        },
+        {
+            "count": 15,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 7,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 14,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "VEHICLE_TYPE_CODE_5",
+    "semantic_types": [
+        {
+            "count": 14,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 13,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 7,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Cross_Street_2",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 36,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 6602,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 72,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 39,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2044,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 41,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 174,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 199,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 273,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 26,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 478,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 126,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 604,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 1420,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Street_Name",
+    "semantic_types": [
+        {
+            "count": 14036,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "TOSTREETNAME",
+    "semantic_types": [
+        {
+            "count": 3745,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CORE_COURSE_9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 18,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Applicant_s_First_Name",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 168,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 752,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 734,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 7122,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 469,
+            "semantic_type": "city"
+        },
+        {
+            "count": 13,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 383,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 2204,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 13,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 6,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 2125,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 367,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Site_Safety_Mgr_s_First_Name",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 9,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 37,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 43,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 271,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 43,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 28,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 154,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 81,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 20,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Site_Safety_Mgr_s_Last_Name",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 25,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 41,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 58,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 783,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 89,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 39,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 264,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 13,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 268,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 54,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Location_1",
+    "semantic_types": [
+        {
+            "count": 122764,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 8,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 16,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 6,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "address",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 69,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 32,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1181,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 800,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 92,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 226,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2664,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 6,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 66,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 437,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 153,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 73,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 397,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 9,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 17524,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 98,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 133,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 121,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1303,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 37,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 150,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 13,
+            "semantic_type": "color"
+        },
+        {
+            "count": 726,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "website"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 138,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 161,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Make",
+    "semantic_types": [
+        {
+            "count": 6873,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "COMPARABLE_RENTAL___2__Building_Classification",
+    "semantic_types": [
+        {
+            "count": 12,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "MANHATTAN___COOPERATIVES_COMPARABLE_PROPERTIES___Neighborhood",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 8,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "city"
+        },
+        {
+            "count": 4,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 14,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 7,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Respondent_Address__City_",
+    "semantic_types": [
+        {
+            "count": 14,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 6,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 33,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 807,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1167,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 6,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 451,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 63,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 8006,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2263,
+            "semantic_type": "city"
+        },
+        {
+            "count": 35,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 346,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 4,
+            "semantic_type": "color"
+        },
+        {
+            "count": 1096,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "website"
+        },
+        {
+            "count": 20,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 21,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1027,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 2387,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 272,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 7,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Respondent_Address__Zip_Code_",
+    "semantic_types": [
+        {
+            "count": 22641,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Violation_Location__City_",
+    "semantic_types": [
+        {
+            "count": 13,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 9,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 30,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 723,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1147,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 219,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 45,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 4671,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1563,
+            "semantic_type": "city"
+        },
+        {
+            "count": 22,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 217,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 631,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 16,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 8,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1318,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1347,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 134,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 9,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Violation_Location__Zip_Code_",
+    "semantic_types": [
+        {
+            "count": 6746,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 191,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 13975,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 18,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 2,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "BOROUGH_CITY",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 39,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 33,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 6,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 11,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 209,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 368,
+            "semantic_type": "city"
+        },
+        {
+            "count": 9,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 30,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 72,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 61,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 7,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "CANDMI",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 19,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Borough",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city_agency"
+        }
+    ]
+},{
+    "column_name": "STR_NAME",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 21,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3882,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 11,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 23,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 603,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 16,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 33,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 260,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 13,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 160,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 3,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 278,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Body_Type",
+    "semantic_types": [
+        {
+            "count": 52,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 13,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 86,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 207,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 527,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 17,
+            "semantic_type": "city"
+        },
+        {
+            "count": 5,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 62,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 8,
+            "semantic_type": "color"
+        },
+        {
+            "count": 908,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "website"
+        },
+        {
+            "count": 28,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 73,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 149,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 5,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 94,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 175,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 82,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1133,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 21,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 135,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "color"
+        },
+        {
+            "count": 565,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "website"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 123,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 132,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Make",
+    "semantic_types": [
+        {
+            "count": 12,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 44,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 49,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 89,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 350,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1670,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 109,
+            "semantic_type": "city"
+        },
+        {
+            "count": 9,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 395,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 7,
+            "semantic_type": "color"
+        },
+        {
+            "count": 2086,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 15,
+            "semantic_type": "website"
+        },
+        {
+            "count": 135,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 700,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 359,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Website",
+    "semantic_types": [
+        {
+            "count": 1106,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "StreetName",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 2,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 9,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 31,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4932,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 113,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 46,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 1246,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 11,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 72,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 284,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 296,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 79,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 270,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 61,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 479,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "CANDMI",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 17,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Location",
+    "semantic_types": [
+        {
+            "count": 260973,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Agency_",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 16,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 8,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 31,
+            "semantic_type": "city_agency"
+        }
+    ]
+},{
+    "column_name": "Agency_Acronym",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 8,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 5,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 17,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 27,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 8,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "First_Name",
+    "semantic_types": [
+        {
+            "count": 32,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 47,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 98,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 702,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 103,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 56,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 361,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 17,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 3,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 193,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 38,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Last_Name",
+    "semantic_types": [
+        {
+            "count": 51,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 115,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 149,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1588,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 206,
+            "semantic_type": "city"
+        },
+        {
+            "count": 3,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 119,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 514,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 21,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 562,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 83,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Middle_Initial",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 18,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 7,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "Color",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 7,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 9,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "BOROUGH___COMMUNITY",
+    "semantic_types": [
+        {
+            "count": 6,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Neighborhood_3",
+    "semantic_types": [
+        {
+            "count": 7,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 10,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 28,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 30,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 8,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 82,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 18,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "VEHICLE_MAKE",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 4,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 10,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 16,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "EMPCITY",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 72,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 225,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 35,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 9,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 773,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 900,
+            "semantic_type": "city"
+        },
+        {
+            "count": 3,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 42,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 115,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 68,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 229,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 33,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "ZIP",
+    "semantic_types": [
+        {
+            "count": 3831,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 792,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 219,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Name__Last__First_",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 497,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 426,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3402,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 74,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 355,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1588,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Business_City",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 10,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 25,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 44,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 236,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 6,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 33,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 20,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "ACCOUNT_PHONE",
+    "semantic_types": [
+        {
+            "count": 699,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 2,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "COMPLAINT_INQUIRY_STREET_ADDRESS",
+    "semantic_types": [
+        {
+            "count": 10,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 20,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 12,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 497,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 19,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 53,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 616,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 18,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 104,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 15,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 145,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 3,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 3626,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "HOUSE_NUMBER",
+    "semantic_types": [
+        {
+            "count": 20474,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "STREET_NAME",
+    "semantic_types": [
+        {
+            "count": 9838,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 27,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 13,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 564,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 212,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 703,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 499,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 28,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 41,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 546,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 5,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 543,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_NAME",
+    "semantic_types": [
+        {
+            "count": 19,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 7,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 182,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 170,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 428,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 306,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 26,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 186,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 226,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "StreetAddress",
+    "semantic_types": [
+        {
+            "count": 32,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 12,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 80,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 66,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 28,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 678,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 18,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 113,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 32,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 117,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 2,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 5884,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "TOP_VEHICLE_MODELS___5",
+    "semantic_types": [
+        {
+            "count": 19,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 83,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "DVC_MAKE",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 79,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 36,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 282,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 227,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2058,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 107,
+            "semantic_type": "city"
+        },
+        {
+            "count": 18,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 320,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 1282,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 10,
+            "semantic_type": "website"
+        },
+        {
+            "count": 13,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 4,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1658,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 409,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 7,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Address1",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 5,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 12,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 17,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 3,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 104,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 14,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 4,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 16,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 861,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Zip",
+    "semantic_types": [
+        {
+            "count": 3474,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 23,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 36,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 2,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Body_Type",
+    "semantic_types": [
+        {
+            "count": 724,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Color",
+    "semantic_types": [
+        {
+            "count": 20,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 71,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 30,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 337,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 11,
+            "semantic_type": "city"
+        },
+        {
+            "count": 43,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "color"
+        },
+        {
+            "count": 193,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "website"
+        },
+        {
+            "count": 3,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 32,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 34,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Vehicle_Make",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 15,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 64,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 115,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 382,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 19,
+            "semantic_type": "city"
+        },
+        {
+            "count": 4,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 94,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 7,
+            "semantic_type": "color"
+        },
+        {
+            "count": 606,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "website"
+        },
+        {
+            "count": 12,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 179,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 98,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "COMPARABLE_RENTAL___2__Neighborhood",
+    "semantic_types": [
+        {
+            "count": 29,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 13,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 19,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 2,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "BUSINESS_NAME2",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 72,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 37,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 483,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 21,
+            "semantic_type": "city"
+        },
+        {
+            "count": 17,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 83,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 6,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 228,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 19,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 4,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "PREM_TYP_DESC",
+    "semantic_types": [
+        {
+            "count": 6,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 4,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 39,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 4,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Website",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 52,
+            "semantic_type": "website"
+        }
+    ]
+},{
+    "column_name": "org_neighborhood",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 9,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 5,
+            "semantic_type": "city"
+        },
+        {
+            "count": 4,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 30,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 5,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "First_Name",
+    "semantic_types": [
+        {
+            "count": 426,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1079,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1198,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 16732,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 595,
+            "semantic_type": "city"
+        },
+        {
+            "count": 18,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 800,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1,
+            "semantic_type": "color"
+        },
+        {
+            "count": 4650,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 37,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 25,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 4847,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 859,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "MI",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 19,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Applicant_Business_Address",
+    "semantic_types": [
+        {
+            "count": 2533,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "interest2",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 7,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 10,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "interest3",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 5,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 10,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "neighborhood",
+    "semantic_types": [
+        {
+            "count": 119,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "EMPCITY",
+    "semantic_types": [
+        {
+            "count": 511,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 104,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 74,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 679,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 88,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "Street_Name",
+    "semantic_types": [
+        {
+            "count": 11,
+            "semantic_type": "zip_code"
+        },
+        {
+            "count": 45,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 16,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 66,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 6665,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 185,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 164,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 2442,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 32,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 166,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 446,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 6,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 312,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 106,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 489,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 169,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 759,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "BORO",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 3,
+            "semantic_type": "city_agency"
+        }
+    ]
+},{
+    "column_name": "Location",
+    "semantic_types": [
+        {
+            "count": 384842,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Park_Facility_Name",
+    "semantic_types": [
+        {
+            "count": 9,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 43,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 943,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 204,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Park_Site_Name",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 7,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 85,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 54,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 14,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 92,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 6,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 37,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 11,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 36,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 3,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 10,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_NAME",
+    "semantic_types": [
+        {
+            "count": 27,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 7,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 89,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 195,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 424,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 351,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 33,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 203,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 226,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Business_Phone_Number",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 41373,
+            "semantic_type": "phone_number"
+        },
+        {
+            "count": 61,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 5,
+            "semantic_type": "city"
+        }
+    ]
+},{
+    "column_name": "First_Name",
+    "semantic_types": [
+        {
+            "count": 174,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 362,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 600,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 5838,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 358,
+            "semantic_type": "city"
+        },
+        {
+            "count": 12,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 333,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 2281,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 82,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 9,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1793,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 333,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "BusinessName",
+    "semantic_types": [
+        {
+            "count": 45,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 431,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 139,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 3087,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 80,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 168,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 643,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 3,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 70,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 7,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 1741,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 107,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 29,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 38,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 14,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 313,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 259,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 688,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 4,
+            "semantic_type": "city"
+        },
+        {
+            "count": 603,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 40,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 46,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 631,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 5,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 546,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "FromStreetName",
+    "semantic_types": [
+        {
+            "count": 10598,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Boro",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "borough"
+        }
+    ]
+},{
+    "column_name": "REGISTRY_ADDRESS",
+    "semantic_types": [
+        {
+            "count": 8,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 9,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 7,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 10,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 128,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 20,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 74,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 9,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 29,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 3810,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Address",
+    "semantic_types": [
+        {
+            "count": 9,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 14,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 12,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 330,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 44,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 5,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 34,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1557,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "SCHOOL",
+    "semantic_types": [
+        {
+            "count": 21,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 9,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 186,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 160,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 460,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 291,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 17,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 246,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 232,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 7,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "interest2",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 8,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 10,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "interest3",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 5,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 9,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "interest4",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 6,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "interest5",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 11,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "website",
+    "semantic_types": [
+        {
+            "count": 7,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 17,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 299,
+            "semantic_type": "website"
+        }
+    ]
+},{
+    "column_name": "Phone_Number",
+    "semantic_types": [
+        {
+            "count": 945,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "StreetName",
+    "semantic_types": [
+        {
+            "count": 5384,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Park_Facility_Name",
+    "semantic_types": [
+        {
+            "count": 17,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 450,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 198,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 171,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 123,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 6,
+            "semantic_type": "city"
+        },
+        {
+            "count": 1038,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 27,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 313,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 3,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 6,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 137,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 5,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Street_Name",
+    "semantic_types": [
+        {
+            "count": 14668,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Borough",
+    "semantic_types": [
+        {
+            "count": 7,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "DVT_MAKE",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 3,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 54,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 64,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 432,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 34,
+            "semantic_type": "city"
+        },
+        {
+            "count": 4,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 50,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 315,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 14,
+            "semantic_type": "website"
+        },
+        {
+            "count": 22,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 587,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 68,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "interest2",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 18,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "interest5",
+    "semantic_types": [
+        {
+            "count": 2,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 7,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "interest6",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 9,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},{
+    "column_name": "website",
+    "semantic_types": [
+        {
+            "count": 8,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 17,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 407,
+            "semantic_type": "website"
+        }
+    ]
+},{
+    "column_name": "MI",
+    "semantic_types": [
+        {
+            "count": 28,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Applicant_Last_Name",
+    "semantic_types": [
+        {
+            "count": 2166,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Filing_Representative_City",
+    "semantic_types": [
+        {
+            "count": 1,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 11,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 7,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 49,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 94,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 6,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 13,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 45,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 11,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Filing_Representative_First_Name",
+    "semantic_types": [
+        {
+            "count": 15,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 31,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 57,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 468,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 65,
+            "semantic_type": "city"
+        },
+        {
+            "count": 36,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 232,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 13,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 134,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 24,
+            "semantic_type": "vehicle_type"
+        }
+    ]
+},{
+    "column_name": "Owner_s_Business_Name",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "lat_lon_cord"
+        },
+        {
+            "count": 4,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 62,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 79,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 449,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 1488,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "website"
+        },
+        {
+            "count": 2,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 263,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 3,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 1,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        }
+    ]
+},{
+    "column_name": "School_Name",
+    "semantic_types": [
+        {
+            "count": 25,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 2,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 85,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 179,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 454,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 334,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 22,
+            "semantic_type": "school_level"
+        },
+        {
+            "count": 14,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 196,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 2,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 233,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "Address",
+    "semantic_types": [
+        {
+            "count": 44,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 36,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 334,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 151,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 20,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 618,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 41,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 369,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 55,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 27,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 196,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 13155,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Agency_Name",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 3,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 20,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 22,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 30,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 1,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 7,
+            "semantic_type": "car_make"
+        }
+    ]
+},{
+    "column_name": "phone",
+    "semantic_types": [
+        {
+            "count": 1728,
+            "semantic_type": "phone_number"
+        }
+    ]
+},{
+    "column_name": "Agency",
+    "semantic_types": [
+        {
+            "count": 46,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 8,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "Address_1",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 1,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 1,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 27,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 2,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 87,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 5,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 44,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 7,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 33,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 1531,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Location_1",
+    "semantic_types": [
+        {
+            "count": 4151,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "School_Type",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "SCHOOL_LEVEL_",
+    "semantic_types": [
+        {
+            "count": 5,
+            "semantic_type": "school_level"
+        }
+    ]
+},{
+    "column_name": "CrossStreetName",
+    "semantic_types": [
+        {
+            "count": 8,
+            "semantic_type": "college_name"
+        },
+        {
+            "count": 26,
+            "semantic_type": "borough"
+        },
+        {
+            "count": 4160,
+            "semantic_type": "street_name"
+        },
+        {
+            "count": 32,
+            "semantic_type": "park_playground"
+        },
+        {
+            "count": 80,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 814,
+            "label": "other",
+            "semantic_type": "Other"
+        },
+        {
+            "count": 9,
+            "semantic_type": "city"
+        },
+        {
+            "count": 2,
+            "semantic_type": "school_name"
+        },
+        {
+            "count": 23,
+            "semantic_type": "building_classification"
+        },
+        {
+            "count": 281,
+            "semantic_type": "area_of_study"
+        },
+        {
+            "count": 1,
+            "semantic_type": "city_agency"
+        },
+        {
+            "count": 290,
+            "semantic_type": "location_type"
+        },
+        {
+            "count": 55,
+            "semantic_type": "neighborhood"
+        },
+        {
+            "count": 242,
+            "semantic_type": "car_make"
+        },
+        {
+            "count": 9,
+            "semantic_type": "vehicle_type"
+        },
+        {
+            "count": 313,
+            "semantic_type": "address"
+        }
+    ]
+},{
+    "column_name": "Website",
+    "semantic_types": [
+        {
+            "count": 39,
+            "label": "other",
+            "semantic_type": "Other"
+        }
+    ]
+},{
+    "column_name": "QUEENS___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
+    "semantic_types": [
+        {
+            "count": 3,
+            "semantic_type": "building_classification"
+        }
+    ]
+},{
+    "column_name": "CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
+    "semantic_types": [
+        {
+            "count": 4,
+            "semantic_type": "subject_in_school"
+        },
+        {
+            "count": 1,
+            "semantic_type": "area_of_study"
+        }
+    ]
+},
