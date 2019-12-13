@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import os  
 import sys
 import pyspark
@@ -32,13 +34,17 @@ spark = SparkSession \
         .config("spark.some.config.option", "some-value") \
         .getOrCreate()
 
-if not os.path.exists('JSON_Outputs'):
-    os.makedirs('JSON_Outputs')             # If we want to write the output into separate forlder we can use this code and change the location of the output file accordingly, else not needed.
+filepath='/users/hm74/NYCOpenData/'
+home='/users/hm74'
+
+if not os.path.exists(home+'/JSON_Outputs_Thunderbuddies'):
+    os.makedirs(home+'/JSON_Outputs_Thunderbuddies')             # If we want to write the output into separate forlder we can use this code and change the location of the output file accordingly, else not needed.
 
 
-dataset_list=os.listdir('/home/slk522/NYCOpenData/')  #give your directory name which has NYCOpenData, scan the list of directories that lie under the given folder        
+dataset_list=os.listdir('/users/hm74/NYCOpenData/')  #give your directory name which has NYCOpenData, scan the list of directories that lie under the given folder        
 
 final_merged_json = []
+individual_json=[]
       
         
         
@@ -113,11 +119,13 @@ def data_profile(filename):         #the data profiling function starts from her
     
     log("Started processing - " + filename)  #we can log files if we want, this is an optional step
     filename=str(filename)
-    filename='/user/hm74/NYCOpenData/'+filename.lower()
-    input_data = spark.read.format('csv').options(header='true',inferschema='true').option("delimiter", "\t").load(filename)   #we created a dataframe that draw the input from the filename
+    filename2='/user/hm74/NYCOpenData/'+filename.lower()
+    print('file_Name:'+filename2)
+    input_data = spark.read.format('csv').options(header='true',inferschema='true').option("delimiter", "\t").load(filename2)   #we created a dataframe that draw the input from the filename
     json_file_data = []
-    json_column_data = []      
-    
+    json_column_data = []    
+    key_column_candidates=[]  
+    key_values=[]
     column_list = input_data.columns    #we make a list of columns through which we can recurse
     count_nan_vals = input_data.select([count(when(isnan(fetch_col_name(column_name)), fetch_col_name(column_name))).alias(column_name) for column_name in column_list]) #Since, it's data profiling, we filter out initial "Not A Number"(NAN) values  
     count_null_vals = input_data.select([count(when(col(fetch_col_name(column_name)).isNull(), fetch_col_name(column_name))).alias(column_name) for column_name in column_list]) #we filter out all the null values in the dataset
@@ -126,7 +134,7 @@ def data_profile(filename):         #the data profiling function starts from her
     count_distinct_vals = input_data.distinct().count()  #at last, out of the non valid values, we now find the distinct values in each column
     #Till now, we have the functions that can be executed without going through much of the column, The other functions, we can easily recurse through the columns
     for column_name in column_list:    
-        print(column_name+"column is being processed")
+        print('col:'+column_name)
         column_data={}         
         fin_dict = {}
         fin_dict["column_name"] = column_name
@@ -134,10 +142,17 @@ def data_profile(filename):         #the data profiling function starts from her
         data_rdd = input_data.rdd.map(lambda x: x[column_name]) #Trying to convert dataframe into an rdd since I believe rdd is better in handling both memory as well as time 
         data_rdd = data_rdd.filter(lambda x: x!=None)    #rdd fetches distinct values
         if(data_rdd.count())==0:
-            continue
-        #x = x.filter(x.val.isNotNull())
+            continue              #if the dataset is empty, you can skip this unnecessary calculations, just go to next dataset
         distinct_values = data_rdd.map(lambda x: Row(data_type=return_data_types(x), val=x)).toDF()  #
         dt_list = distinct_values.select("data_type").distinct().collect()    #we get the rdd values into a list of values
+        key_values=input_data.select(column_name).distinct().count()
+        
+        
+        count_input=input_data.select(column_name).count()
+        print(str(key_values)+' '+str(count_input))
+        if key_values==count_input:
+            key_column_candidates.append(column_name)
+              
         for i in dt_list:        
             dt_dict = {} #From here, since we are using rdd, we format using the values of rdd such that it matches the output metadata
             data_type = i['data_type'] 
@@ -175,23 +190,45 @@ def data_profile(filename):         #the data profiling function starts from her
         column_data["data_types"] = fin_dict["data_types"]   #datatypes are the ones which are displayed at last 
         json_column_data.append(column_data) #dump finally all into the a column data. This will be like a dictionary inside main dictionary called the dataset_name
     output_data = {}
-    output_data["dataset_name"] = filename  #Dataset name is displayed
+    output_data["dataset_name"] = filename[:9]  #Dataset name is displayed
     output_data["columns"] = column_list   #no.of columns are displayed
-    output_data["key_column_candidates"] = []  #key column candidates are displayed here.
+    output_data["key_column_candidates"] =key_column_candidates  #key column candidates are displayed here.
     json_file_data.append(output_data)        #append the dataset related first to a file 
     json_file_data.append(json_column_data)   #append remain entire column data which we did in above, we use this here to append to a file
     json_data = json.dumps(json_file_data)  #the file entire data is take out using dumps in order to merged this output and append to a common file so that we will have only one file which can give all the outputs in proper json format.
     return json_file_data   #this fn can be return here from the data profiling
 
+#with open('Datasets2.txt', 'r') as f:
+ #   dataset_names = f.read().split(", ")
+
 counter = 0
 for dataset_name in dataset_list:           #we recurse through the file which are elements of the list which we generated at first.
-    output_json = {}        
-    output_json = data_profile(dataset_name)   #call our data profiling method which modifies the dataset and get the output required
-    final_merged_json.append(output_json)         #this might be the merged json file which can be taken as the merged json for all the datasets.
-    log("Processed dataset - " + dataset_name)    #This operation is completed, so jsut trying to log the dataset 
-    with open('task1.json', 'w') as out_file:   #Writing json for the particular dataset
-        json.dump(final_merged_json, out_file)
-
-
-with open('task1.json', 'w') as out_file:    #this is the merged json file for the entire datasset.
+    try :
+        output_json = {}        
+        output_json = data_profile(dataset_name)   #call our data profiling method which modifies the dataset and get the output required
+        final_merged_json.append(output_json)         #this might be the merged json file which can be taken as the merged json for all the datasets.
+        log("Processed dataset - " + dataset_name)    #This operation is completed, so jsut trying to log the dataset 
+        with open('Merged_final.json', 'w') as out_file:   #Writing json for the particular dataset in separate folder
+             json.dump(final_merged_json, out_file)
+        log("This individual file is created" +dataset_name[:9]+'.json')
+        with open(home+'/JSON_Outputs_Thunderbuddies/'+dataset_name[:9]+'.json', 'w') as out_file:   #Writing json for the particular dataset in separate folder
+             json.dump(output_json, out_file)
+    except Exception as ex:
+        print('-----',dataset_name,'Failed execution! -----')  #We dont know sometimes, which exception comes, so, better handle it before your progrems intrerrupts
+        # Get current system exception
+        ex_type, ex_value, ex_traceback = sys.exc_info()    # Extract unformatter stack traces as tuples
+        trace_back = traceback.extract_tb(ex_traceback)
+        # Format stacktrace
+        stack_trace = list()
+        for trace in trace_back:
+            stack_trace.append(
+                "File : %s , Line : %d, Func.Name : %s, Message : %s" % (trace[0], trace[1], trace[2], trace[3]))
+        print("Fail %s \n" % dataset_name)
+        print("Exception type : %s \n" % ex_type.__name__)
+        print("Exception message : %s \n" % ex_value)
+        print("Stack trace : %s \n" % stack_trace)
+        print("\n")
+        pass  #continue with next datset. 
+      
+with open('Merged_final.json', 'w') as out_file:    #this is the merged json file for the entire datasset.
     json.dump(final_merged_json, out_file)
