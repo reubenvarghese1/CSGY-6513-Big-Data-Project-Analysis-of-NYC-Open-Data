@@ -62,10 +62,7 @@ with open('cluster1.txt') as fp:
 data = data[0].split(",")
 cols=[p.split('.')[1] for p in data]
 
-
 f=os.listdir('NYCColumns/')
-
-
 
 def is_number(s):
     try:
@@ -120,7 +117,7 @@ predicttypesusingcolumnnames()
 
 diction ={'kevu-8hby.STR_NAME.txt.gz' : 'street name', 'jz4z-kudi.Violation_Location__Zip_Code_.txt.gz':'zip','i8ys-e4pm.CORE_COURSE_9_12_ONLY_.txt.gz':'subjects','6wcu-cfa3.CORE_COURSE__MS_CORE_and_9_12_ONLY_.txt.gz':'subjects','qgea-i56i.PREM_TYP_DESC.txt.gz':'type of location','8vgb-zm6e.City__State__Zip_.txt.gz':'zip','w9ak-ipjd.Filing_Representative_First_Name.txt.gz':'first name','sxx4-xhzg.Park_Site_Name.txt.gz':'park','d3ge-anaz.CORE_COURSE__MS_CORE_and_9_12_ONLY_.txt.gz':'subjects','x5tk-fa54.Agency_Name.txt.gz':'City agency','72mk-a8z7.ORGANIZATION_PHONE.txt.gz':'Phone Number','6rrm-vxj9.parkname.txt.gz':'park','t8hj-ruu2.Business_Phone_Number.txt.gz':'phone number','ipu4-2q9a.Site_Safety_Mgr_s_Last_Name.txt.gz':'last name','w9ak-ipjd.Filing_Representative_City.txt.gz':'city',
 'vw9i-7mzq.interest5.txt.gz':'areas of study','jz4z-kudi.Violation_Location__Zip_Code_.txt.gz':'zip','5uac-w243.PREM_TYP_DESC.txt.gz':'building classification','uq7m-95z8.interest5.txt.gz':'areas of study','jz4z-kudi.Respondent_Address__City_.txt.gz':'city','p937-wjvj.HOUSE_NUMBER.txt.gz':'other','erm2-nwe9.Landmark.txt.gz':'street name', 'jz4z-kudi.Respondent_Address__City_.txt.gz':'city','erm2-nwe9.Park_Facility_Name.txt.gz':'park','uzcy-9puk.Park_Facility_Name.txt.gz':'park','feu5-w2e2.BusinessCity.txt.gz':'business name','by6m-6zpb.interest.txt.gz':'areas of study','vw9i-7mzq.interest6.txt.gz':'areas of study','vw9i-7mzq.interest2.txt.gz':'areas of study','ph7v-u5f3.TOP_VEHICLE_MODELS___5.txt.gz':'vehicle car make', 'aiww-p3af.Park_Facility_Name.txt.gz':'park','sxmw-f24h.Park_Facility_Name.txt.gz':'park','bty7-2jhb.Site_Safety_Mgr_s_Last_Name.txt.gz':'last name','uq7m-95z8.interest3.txt.gz':'areas of study','erm2-nwe9.Landmark.txt.gz':'street name','feu5-w2e2.BusinessZip.txt.gz':'zip','p2d7-vcsb.COMPLAINT_INQUIRY_STREET_ADDRESS.txt.gz':'address','uq7m-95z8.interest4.txt.gz':'areas of study',
-'uq7m-95z8.interest2.txt.gz':'areas of study'}
+'uq7m-95z8.interest2.txt.gz':'areas of study','bdjm-n7q4.Location.txt.gz':'latitude longitude'}
 
 def getalloftype(fep):
     fep = fep.lower()
@@ -178,6 +175,8 @@ def location_type(word):
 def park_playground(word):
     word = word.lower()
     vdata = []
+    if ("park" in word) or ("playground" in word):
+        return 1
     with open('ValueData/parks.txt') as fp:
         vdata = [line for line in fp]
     vdata = vdata[0].split(",")
@@ -207,9 +206,11 @@ def college_name(word):
 def school_name(word):
     word = word.lower()
     vdata = []
-    if "school" in word:
+    if ("school" in word) or ("academy" in word):
         return 1
-    
+    regex="^[a-zA-Z]{2}( ){0,1}[0-9]{1,3}\D*"
+    if re.search(regex, word):
+        return 1
     with open('ValueData/schoolname.txt') as fp:
         vdata = [line for line in fp]
     vdata = vdata[0].split(",")
@@ -252,12 +253,10 @@ def area_of_study(word):
 def website(word):
     word = word.lower()
     ls = re.split('\.|\/',word.lower())
-    lst = [ 'nyc','ml','www','gov', 'net', 'com','me','info','edu', 'http', 'org', 'https','acad',]
+    lst = [ 'nyc','ml','www','gov', 'net', 'com','me','info','edu', 'http', 'org', 'https','acad','us']
     if any(item in ls for item in lst):
-        is_website=1
-    else:
-        is_website=0
-    return is_website
+        return 1
+    return 0
 
 
 def borough(word):
@@ -301,13 +300,15 @@ def school_level(word):
             return 1
     return 0
 
-def address(value):
-    if type(value)!=str or value==None:
+def address(word):
+    if type(word)!=str or word==None:
         return 0
+    if(city(word)==1):
+        return 1
     street_name = ['street','st.','avenue','boulevard', 'pl', 'rd', 'alley', 'ave', 'bridge', 'blvd', 'ln', 'dr',
                   'slip', 'broaway', 'terrace', 'plaza', 'square', 'expy']
     for street in street_name:
-        if fuzz.partial_ratio(street,value.lower())>=85 and value[0].isdigit() == True:
+        if fuzz.partial_ratio(street,word.lower())>=85 and word[0].isdigit() == True:
             return 1
     return 0
 
@@ -327,7 +328,6 @@ def zip_code(word):
     regex= "^[0-9]{5}(?:-[0-9]{4})?$"
     if re.search(regex, word):
         return 1
-    else:
         return 0
 
 def neighborhood(word):
@@ -372,10 +372,10 @@ def street_name(value):
 def phone_number(word):
     if word is None:
         return 0
+    phonenum = word.replace('-','')
     if type(word)==int:
-        phnum=str(phnum)
-    phnum = word.replace('-','')
-    if re.search(r"((\(\d{3}\)?)|(\d{3}))([\s./]?)(\d{3})([\s./]?)(\d{4})", phnum):
+        phonenum=str(phonenum)
+    if re.search(r"((\(\d{3}\)?)|(\d{3}))([\s./]?)(\d{3})([\s./]?)(\d{4})", phonenum):
         return 1
     else:
         return 0
@@ -383,7 +383,7 @@ def phone_number(word):
 def business_name(word):
     if type(word)!=str or word==None:
         return 0
-    lasttext = ['inc','inc.','p.c.','llc','l.l.c.','pc','lp','l.p.','corp','corp.','corporation','company','co.','co','ltd','ltd.','capital','holdings','services']
+    lasttext = ['inc','inc.','llc','l.l.c.','p.c.','pc','lp','l.p.','corp','corp.','corporation','company','co.','co','ltd','ltd.','capital','holdings','services']
     for end in lasttext:
         ratio=fuzz.ratio(end, word.lower())
         if ratio>=90:
@@ -398,11 +398,13 @@ def person_name(word):
     return 0
 
 def color(word):
-    
+    word =word.lower()
     codes =["BK","BL","GL","GY","MR","OR","PK","PR","RD","TN","WH","YW","NOCL"]
     for w in codes:
-        if word.lower() == w.lower():
+        r=fuzz.partial_ratio(w.lower(), word)
+        if r>=65:
             return 1
+            
 
     names = [ "White", "Black", "Gold", "Gray", "Maroon","Yellow", "Red", "Blue", "Green", "Brown", "Pink", "Orange", "Purple","Tan"]
 
@@ -413,11 +415,15 @@ def color(word):
             return 1
     return 0
 
+
+# In[154]:
+
+
 import re
 def lat_lon_cord(value):
     try:
         lag = value.split(',')[0][1:-1]
-        s = r'^[\-\+]?(0(\.\d{1,10})?|([1-9](\d)?)(\.\d{1,10})?|1[0-7]\d{1}(\.\d{1,10})?|180\.0{1,10})$'
+        s = r'^[\-\+]?(0(\.\d{1,10})?|([1-9](\d)?)(\.\d{1,10})?|1[0-7]\d{1}(\.\d{1,10})?|180\.0{1,10})'
         if re.match(s, lag) != None:
             return 1
         else:
@@ -429,7 +435,7 @@ def lat_lon_cord(value):
 # In[155]:
 
 
-predfunc = {'person name':'person_name','first name':'person_name','middle name':'person_name','websites':'process_website', 'city':'city','zip':'zip_code','phone number':'phone_number','school levels':'school_level',
+predfunc = {'other':'other','person name':'person_name','first name':'person_name','middle name':'person_name','websites':'process_website', 'city':'city','zip':'zip_code','phone number':'phone_number','school levels':'school_level',
 'college/university names': 'college_name','borough':'borough','last name':'person_name','full name':'person_name','business name':'business_name','address':'address','street name':'street_name','neighborhood':'neighborhood','latitude longitude':'lat_lon_cord','school name':'school_name','vehicle color':'color',
 'vehicle car make':'car_make','city agency':'city_agency','areas of study':'area_of_study','subjects':'subject_in_school','college/univeristy names':'college_name','websites':'website','building classification':'building_classification','vehicle type':'vehicle_type','type of location':'location_type','dba':'business_name','park':'park_playground','vechicle car make':'car_make'}
 
@@ -437,6 +443,8 @@ columntypepredicted = ""
 def find_type(word):
     if word is None:
         return "other"
+    if(predfunc[columntypepredicted] =='other'):
+        return 'other'
     if(globals()[predfunc[columntypepredicted]](word) == 1):
         return predfunc[columntypepredicted]
     if word.isdigit():
@@ -527,30 +535,36 @@ given_label_list=["person_name", "business_name", "phone_number", "address", "st
 "vehicle_type", "location_type", "park_playground", "other"]
 pred_labels=[]
 
-actualcolumns=dict.fromkeys(given_label_list)
-outputcolumns=dict.fromkeys(given_label_list)
-actualcolumns = {x: 0 for x in actualcolumns}
-outputcolumns = {x: 0 for x in outputcolumns}
-matchedcolumns = dict.fromkeys(given_label_list)
-matchedcolumns = {x: 0 for x in matchedcolumns}
+
+
+
 
 count = 0
-    
 for i,x in enumerate(data):
-    columntypepredicted=predictions[count]
+    print(i,x)
+    columntypepredicted=predictions[count].lower()
     for p in diction:
         if(x.strip().lower() == p.strip().lower()):
-            columntypepredicted=diction[x.strip()]
-    actualcolumns[predfunc[columntypepredicted]] = actualcolumns.get(predfunc[columntypepredicted],0)+1
+            columntypepredicted=diction[x.strip()].lower()
+    print(columntypepredicted)
+    actualcolumns =None
+    matchedcolumns=None
+    outputcolumns=None
+    with open('Task_2_Results/actual.json') as json_file:
+        actualcolumns = json.load(json_file)
+    with open('Task_2_Results/actual.json', 'w') as f:
+        actualcolumns[predfunc[columntypepredicted]] = actualcolumns.get(predfunc[columntypepredicted],0)+1
+        json.dump(actualcolumns,f,indent=4,sort_keys=True)
     col_name=x.split('.')[1]
     x=x.strip()
+    nametoput =x.split('.')[0]+"_"+x.split('.')[1]
     fp='NYCColumns/'+x
     df = spark.read.format("csv").option("header","false").option("sep", "\t").load(fp).toDF(x.split('.')[1], 'y')
     df = df.drop('y')
     df = df.withColumn('Identified_Labels', find_type(F.col(col_name)))
     df=df.groupBy('Identified_Labels').count()
     pred_labels=df.select("*").distinct().collect()
-    json_dict={"column_name": col_name, "semantic_types":[]}
+    json_dict={"column_name": nametoput, "semantic_types":[]}
     identifiedlabelsforgraph = []
     identifiesvaluesforgraph = []
     for label in pred_labels:
@@ -565,13 +579,24 @@ for i,x in enumerate(data):
             semantic_dict={"semantic_type":"Other","label":rowi ,"count": int(counti)}
             json_dict["semantic_types"].append(semantic_dict)
     res = {identifiedlabelsforgraph[i]: identifiesvaluesforgraph[i] for i in range(len(identifiedlabelsforgraph))} 
+    print(res)
     k = Counter(res)
     top5 = k.most_common(5)
     top5key = []
     top5val = []
+    print(top5)
     if(list(top5[0])[0] == predfunc[columntypepredicted]):
-        matchedcolumns[list(top5[0])[0]] = matchedcolumns.get(list(top5[0])[0],0) +1
-    outputcolumns[list(top5[0])[0]] = outputcolumns.get(list(top5[0])[0],0) + 1
+        with open('Task_2_Results/matched.json') as json_file:
+            matchedcolumns = json.load(json_file)
+        with open('Task_2_Results/matched.json', 'w') as f:
+            matchedcolumns[list(top5[0])[0]] = matchedcolumns.get(list(top5[0])[0],0) +1
+            json.dump(matchedcolumns,f,indent=4,sort_keys=True)
+    with open('Task_2_Results/output.json') as json_file:
+        outputcolumns = json.load(json_file)
+    with open('Task_2_Results/output.json', 'w') as f:
+        outputcolumns[list(top5[0])[0]] = outputcolumns.get(list(top5[0])[0],0) + 1
+        json.dump(outputcolumns,f,indent=4,sort_keys=True)
+    
     for i in top5:
         list(i)
         top5key.append(i[0])
@@ -583,11 +608,17 @@ for i,x in enumerate(data):
         json.dump(json_dict, json_file,indent=4, sort_keys=True)
     
     count = count+1
-    #Plotting a bar graph for each column
     plt.bar(top5key,top5val, color="black")
     plt.savefig(plot_file_path)
     plt.close()
+    print(json_dict)
+    print('\n\n')
     
+
+
+print(actualcolumns)
+print(outputcolumns)
+
 top5outputkey =[]
 top5outputval =[]
 k1 = Counter(outputcolumns)
